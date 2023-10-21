@@ -1,0 +1,90 @@
+:root {
+    /* color of text for walter white's activity.
+       If you decide not to duplicate & create your own,
+       don't forget to change the variable name & value */
+    --yellow: #fff54f;
+}
+
+body {
+    text-align: center;
+    background-color: burlywood;
+}
+
+/* edit the body as you'd like, color, images, aligning */
+
+
+
+/*** TITLES ***/
+h1 {
+    /* font size of text for walter white's activity.
+     If you decide not to duplicate & create your own,
+     don't forget to change the font size */
+    font-size: 112px;
+}
+
+h2 {
+    /* font size & family of text for walter white's activity.
+     If you decide not to duplicate & create your own,
+     don't forget to change the font size & family */
+    font-size: 40px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+
+
+/*** IMAGES ***/
+/* Your row = container
+     Your column = items
+     Hint: look into: display, flex-wrap
+     justy-content, align-items, gap*/
+
+#firstRow img,
+#secondRow img,
+#thirdRow img,
+#fourtRow img {
+    height: 200px;
+}
+
+
+img {
+    height: 200px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.column {
+    margin: 25px 0px;
+}
+
+/*** LOLLIPOP CONTENT ***/
+p {
+    /* font size of text for walter white's activity.
+     If you decide not to duplicate & create your own,
+     don't forget to change the font size */
+    font-size: 25px;
+    margin: 0px 10%;
+    font-family: 25px;
+}
+
+
+
+/*** FOOTER ***/
+/* To remove the bullet pts, look into list-style-type
+     To have them all in one line, look into display inline */
+
+footer {
+    color: crimson;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.lineSentences {
+    padding: 25px 0px;
+    font-size: 30px;
+}
